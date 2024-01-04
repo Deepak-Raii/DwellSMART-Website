@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background-color: #E1CCEC; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans:wght@300&family=Playfair+Display&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans:wght@300;400&family=Playfair+Display&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar{
+  overflow: hidden;
+  width: 0px;
+}
+
+/* styles.css */
+:root {
+  --PRIMARY_COLOR: #F8F9FA;
+  --CONTAINER_COLOR: #CED4DA;
+  --SECONDARY_COLOR: xyz;
+  --FOOTER_COLOR: #212529;
+  --PRIMARY_FONT_COLOR: #ffff;
+  --SECONDARY_FONT_COLOR: #000000;
+  --HEADING_FONT_COLOR: #FF5B22;
+}
+
+/* Rest of your CSS */
+

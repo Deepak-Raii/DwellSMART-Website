@@ -1,0 +1,51 @@
+.footer-mainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: #151414;
+    color: white;
+    padding: 4rem 0px;
+    width: 100vw;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.links ul li{
+  list-style: none;
+  text-align: left;
+  
+}
+
+.links ul li a{
+  color: gray;
+  text-decoration: none;
+  text-align: left;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  @media(max-width : 700px)
+  {
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+        gap: 1rem;
+    }
+  }

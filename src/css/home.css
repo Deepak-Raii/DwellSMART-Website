@@ -1,0 +1,355 @@
+.homeMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroDiv{
+    background: url('../images/buildingg.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heroDivInside{
+    background-color: rgba(0,0,0,0.6);
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroDiv .div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 100%;
+    flex-direction: column;
+    /* background-color: #b3d661; */
+
+}
+
+.heroDiv .div1 .energise{
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 700;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.homeMainDiv .div1 .brandName{
+    /* color: #b3d661; */
+    color: transparent;
+    font-weight: 800;
+    font-size: 4vw;
+    position:relative;
+    padding-right: 1rem;
+}
+
+.homeMainDiv .div1 span::before{
+    content: attr(data-text);
+    position:absolute;
+    color: #b3d661;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 1rem;
+    border-right: 5px solid white;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+
+}
+
+.homeMainDiv .div1 p{
+    width: 80%;
+    margin-top: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.homeMainDiv .div1 .exploreBtn{
+    background-color: #b3d661;
+    border-radius: 0px;
+    color: #2d3748;
+    border: 0px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+.homeMainDiv .exploreBtn:hover{
+    background-color: rgb(75, 178, 156);
+    color: white;
+}
+
+.heroDiv .div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.heroDiv .div2 img{
+    height: 50vh;
+    
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    padding: 5rem;
+}
+
+.div3 h2{
+    width: 50%;
+    color: #2d3748;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.div3 p{
+    width: 70%;
+    color: #2d3748;
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+.ourProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #070707;
+    width: 100vw;
+    margin-top: 5rem;
+    padding: 2rem 0px;
+}
+
+
+.ourProducts .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+
+}
+
+.content .product{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #5e80c171; */
+    border-radius: 10px;
+
+}
+
+.product h2,p{
+    color: white;
+}
+
+.product img{
+    width: 50vw;
+    height: 60vh;
+}
+
+.product .btn{
+    background-color: #b3d661;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+
+.product .btn:hover{
+    background-color: rgb(75, 178, 156);
+    color: white;
+}
+.ourProducts .ourProductTitle{
+    font-weight: 600;  
+    color: white;
+    text-align: center;
+    margin: 2rem 0px;
+    border-right: 5px solid #b3d661;
+    padding: 0px 1rem;
+    width: auto;
+    /* background-color: aliceblue; */
+}
+
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: #2d3748;
+    margin-bottom: 10px;
+}
+
+.servicesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 5rem;
+}
+
+.servicesDiv h1{
+    border-right: 5px solid #b3d661;
+    text-align: center;
+     margin-bottom: 5rem;
+     margin-top:5rem;
+     width: auto;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    gap: 2rem;
+
+}
+
+.servicesDiv .div1{
+    background: url('../images/residential.jpg');
+    background-size: 100% 100%;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 7px;
+}
+.services .div1:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 43vh;
+
+}
+
+.services .div2:hover{
+    transition: all 0.5s;
+    height: 43vh;
+    cursor: pointer;
+
+}
+
+.services .div1 .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    background-color:rgba(41, 39, 39, 0.504) ;
+    padding: 0px 0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+}
+.servicesDiv .div1 h2, .div2 h2{
+    text-align: center;
+    color: white;
+}
+
+.servicesDiv .div2{
+    background: url('../images/commertial.jpg');
+    background-size: 100% 100%;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 7px;
+}
+
+.div2 .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    background-color: rgba(41, 39, 39, 0.504);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+}
+
+.whyChooseDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 5rem;
+
+
+}
+
+.whyChooseDiv h1{
+    font-weight: 600;  
+    color: #2d3748;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+
+.softwareDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color:whitesmoke;
+    padding: 4rem 0px;
+    color: white;
+}
+
+.softwareDiv h1{
+    border-left: 5px solid #b3d661;
+    padding: 0rem 1rem;
+    color:#070707;
+}
+.softwareDiv intro{
+    width: 60%;
+    margin-top: 4rem;
+    color: gray;
+    text-align: justify;
+}
+
+.softwareDiv .btn{
+    background-color: #b3d661;
+    border-radius: 0px;
+    margin-top: 3rem;
+    padding: 0.5rem 3.5rem;
+}
+
+.softwareDiv .btn:hover{
+    background-color: rgb(75, 178, 156);
+    color: white;
+}
